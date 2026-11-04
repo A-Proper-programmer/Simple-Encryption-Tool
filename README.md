@@ -1,4 +1,4 @@
-# Simple-Encrypter-Tool
+# Simple-Encryption-Tool
 
 > A simple tool to automate basic encryption/decryption methods. Built to practice python modules such as hashlib, and base64
 
@@ -30,8 +30,8 @@
 ### Installation
 
 ```bash
-git clone https://github.com/A-Proper-programmer/Simple-Encrypter-Tool
-cd Simple-Encrypter-Tool
+git clone https://github.com/A-Proper-programmer/Simple-Encryption-Tool
+cd Simple-Encryption-Tool
 ```
 
 Install dependencies if required:
@@ -63,10 +63,9 @@ Enter the text to encrypt/decrypt : *Hello*
 Enter the mode : *1*
 Encrypt or Decrypt [e/d] : *e*
 Enter number of shifts to the right : *5*
-...
 
 Example output:
-...
+
 Mjqqt
 Press Enter to continue...
 ```
@@ -75,7 +74,7 @@ Press Enter to continue...
 ## Project Structure
 
 ```text
-project-name/
+Simple-Encryption-Tool/
 ├── Enkryptor.py
 └── README.md
 ```
