@@ -24,14 +24,14 @@
 
 ### Prerequisites
 
-- Python 3.11.3 (specify the tested version)
+- Python 3.11.3
 - Requires hashlib and base64 modules
 
 ### Installation
 
 ```bash
-git clone YOUR_REPOSITORY_URL
-cd YOUR_PROJECT_FOLDER
+git clone https://github.com/A-Proper-programmer/Simple-Encrypter-Tool
+cd Simple-Encrypter-Tool
 ```
 
 Install dependencies if required:
@@ -51,58 +51,48 @@ python Enkryptor.py
 
 ## Example
 
-Show a small example of how the project works.
-
 ```text
-Example input:
+Example input: 
+
+Enter the text to encrypt/decrypt : *Hello*
+[1] Ceaser Cipher
+[2] Base64
+[3] Binary
+[4] Morse
+[5] SHA-256 (One-way)
+Enter the mode : *1*
+Encrypt or Decrypt [e/d] : *e*
+Enter number of shifts to the right : *5*
 ...
 
 Example output:
 ...
+Mjqqt
+Press Enter to continue...
 ```
 
-Use real, tested output. Remove this section if it doesn't apply.
 
 ## Project Structure
 
 ```text
 project-name/
-├── src/
-├── tests/
-├── README.md
-├── requirements.txt
-└── LICENSE
+├── Enkryptor.py
+└── README.md
 ```
-
-Adjust this tree to match your actual files and folders.
 
 ## What I Learned
 
-- A concept I learned while building this project.
-- A technical challenge I encountered.
-- How I solved it or what I would do differently.
+- I learnt how translate tables workes, and how to use inline statements efficiently.
+- While testing, the script couldnt handle the error if the inputs were wrong.
+- I used try-except and if statements to handle them.
 
 ## Limitations
 
-- Document known limitations or unfinished features.
-- Explain important assumptions or cases the project doesn't handle.
+- It is possible to enter values other than *e*,*d*, when it asks for "Encrypt or Decrypt".
+- Has limited functions.
 
 ## Future Improvements
 
-- [ ] Improvement 1
-- [ ] Improvement 2
-- [ ] Improvement 3
-
-## Testing
-
-Explain how you tested the project and which cases you checked.
-
-## Disclaimer
-
-Include this section when relevant, especially for security-related tools.
-
-This project is intended for educational purposes. Use it only on systems and data you own or have explicit permission to test.
-
-## License
-
-Specify the license you chose, or state that no license has been specified yet.
+- [ ] Make Errors more visible.
+- [ ] Fix the "e,d" problem
+- [ ] Add more encryption
